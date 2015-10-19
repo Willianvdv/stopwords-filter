@@ -1,4 +1,6 @@
-module Stopwords
-  require_relative 'stopwords/filter.rb'
-  require_relative 'stopwords/snowball'
-end
+module Stopwords; end
+
+require 'stopwords/filter'
+require 'stopwords/snowball'
+require 'stopwords/snowball/filter'
+require 'stopwords/snowball/wordsieve'
